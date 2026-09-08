@@ -3,6 +3,13 @@
 This repo is the working system for ongoing Google Ads strategy, keyword research,
 and campaign optimization for **Bare Laser & Skin Studio** (Edmonton, AB).
 
+**Scope: laser hair removal only** — not IPL, facials, skin rejuvenation, or
+other services. See `business-profile/overview.md`.
+
+**Status: pre-launch.** No campaigns are running yet. See
+`campaign-structure/proposed-structure.md` for the launch checklist —
+conversion tracking has to be working before spend starts.
+
 ## Important: what this system can and can't do
 
 There is currently no Google Ads connector/API access wired into this session, so
@@ -25,13 +32,14 @@ later would let this become fully automatic — flag it if you want to pursue th
 
 ## Structure
 
-- `business-profile/` — what we know about the business, services, service area
-- `keyword-research/` — seed, long-tail, and location-based keyword lists
+- `business-profile/` — business details, positioning, service area, scope
+- `keyword-research/` — keyword list, organized by ad group (laser hair removal only)
 - `negative-keywords/` — running negative keyword list with rationale
 - `ad-copy/` — RSA headline/description drafts by ad group
-- `campaign-structure/` — proposed campaign/ad group architecture
+- `campaign-structure/` — campaign/ad group architecture + pre-launch checklist
 - `data/search-term-reports/` — drop your Google Ads CSV exports here
-- `reports/` — dated optimization reports (the "update requests" for your review)
+- `reports/` — dated optimization reports + `optimization-framework.md`
+  (the decision rules every recommendation follows)
 
 ## Weekly review
 

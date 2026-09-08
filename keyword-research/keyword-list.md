@@ -1,75 +1,89 @@
-# Keyword Research — Bare Laser & Skin Studio
+# Keyword Research — Laser Hair Removal Only
 
-Status: v1 draft, pending confirmation of exact service menu
-(`business-profile/overview.md`). Match types are recommendations to start —
-Google Ads no longer needs broad+modifier distinctions the old way, but we
-still want Phrase/Exact for control given budget is presumably limited for a
-single-location studio.
+Scope: **laser hair removal exclusively.** No IPL, facials, skin
+rejuvenation, or pigmentation keywords belong here — see
+`business-profile/overview.md`.
 
-## Campaign 1: Laser Hair Removal (core revenue driver)
+Organized into 5 ad groups by intent/service, matching
+`campaign-structure/proposed-structure.md`. Keep this focused rather than
+piling on near-duplicate variants — five tight, well-matched groups beat
+fifty overlapping keywords.
 
-**Seed / high intent**
-- laser hair removal edmonton [exact]
-- laser hair removal near me [phrase]
-- laser hair removal callingwood [phrase]
-- laser hair removal west edmonton [phrase]
-- brazilian laser hair removal edmonton [phrase]
-- full body laser hair removal edmonton [phrase]
-- underarm laser hair removal edmonton [phrase]
-- facial laser hair removal edmonton [phrase]
-- laser hair removal packages edmonton [phrase]
-- laser hair removal cost edmonton [phrase]
+## 1. General Laser Hair Removal — Edmonton
+
+- laser hair removal edmonton [phrase]
+- edmonton laser hair removal [phrase]
 - best laser hair removal edmonton [phrase]
-- women's laser hair removal edmonton [phrase]
-- men's laser hair removal edmonton [phrase]
+- laser hair removal prices edmonton [phrase]
+- laser hair removal cost edmonton [phrase]
+- affordable laser hair removal edmonton [phrase]
+- laser hair removal packages edmonton [phrase]
 
-**Long-tail / lower competition**
-- painless laser hair removal edmonton
-- laser hair removal for sensitive skin edmonton
-- laser hair removal deals edmonton
-- how many sessions laser hair removal
-- laser hair removal vs waxing edmonton
+## 2. Brazilian Laser Hair Removal
 
-## Campaign 2: IPL Treatments
+- brazilian laser hair removal edmonton [phrase]
+- brazilian laser edmonton [phrase]
+- brazilian laser hair removal near me [phrase]
+- brazilian laser near me [phrase]
+- brazilian laser hair removal west edmonton [phrase]
+- brazilian laser hair removal cost edmonton [phrase]
+- brazilian laser hair removal prices edmonton [phrase]
 
-- ipl treatment edmonton [phrase]
-- ipl photofacial edmonton [phrase]
-- ipl skin rejuvenation edmonton [phrase]
-- ipl for sun damage edmonton [phrase]
-- ipl for rosacea edmonton [phrase]
-- ipl hair removal edmonton [phrase]
+## 3. Brazilian + Underarms
 
-## Campaign 3: Facials & Skin Rejuvenation
+- brazilian and underarm laser edmonton [phrase]
+- brazilian underarm laser edmonton [phrase]
+- brazilian and underarm laser near me [phrase]
+- brazilian underarm laser package edmonton [phrase]
 
-- facial edmonton [phrase]
-- best facial edmonton [phrase]
-- skin rejuvenation edmonton [phrase]
-- anti aging facial edmonton [phrase]
-- hydrating facial edmonton [phrase]
-- acne facial treatment edmonton [phrase]
-- chemical peel edmonton [phrase] (confirm if offered)
-- microdermabrasion edmonton [phrase] (confirm if offered)
+## 4. Underarms / Legs / Bikini
 
-## Campaign 4: Location / "Near Me" (broad geo catch-all)
+- underarm laser hair removal edmonton [phrase]
+- underarm laser edmonton [phrase]
+- underarm laser hair removal near me [phrase]
+- underarm laser hair removal west edmonton [phrase]
+- leg laser hair removal edmonton [phrase]
+- full leg laser hair removal edmonton [phrase]
+- half leg laser hair removal edmonton [phrase]
+- leg laser hair removal near me [phrase]
+- bikini laser hair removal edmonton [phrase]
+- bikini laser hair removal near me [phrase]
 
-- laser and skin studio near me [phrase]
-- med spa callingwood [phrase]
-- skin clinic west edmonton [phrase]
-- laser clinic near me [phrase]
-- esthetician callingwood [phrase]
+## 5. West Edmonton / Near Me (local catch-all)
 
-## Campaign 5: Competitor / brand-adjacent (optional — confirm before running)
+- laser hair removal near me [phrase]
+- laser hair removal west edmonton [phrase]
+- west edmonton laser hair removal [phrase]
+- laser hair removal callingwood [phrase]
+- callingwood laser hair removal [phrase]
+- laser hair removal west end edmonton [phrase]
+- laser hair removal near callingwood [phrase]
 
-Bidding on competitor names is legal in Canada but can be a poor ROI for a
-small single-location studio and invites them to bid on yours back. Flagging
-for your call, not adding by default:
-- dermapure west edmonton laser
-- oxyderm laser clinic
-- glo skin and medspa
+## Match type notes
 
-## Next steps to firm this up
+Start Phrase/Exact across the board. Be cautious with Broad Match — it's
+fine to test on a couple of the highest-intent General/Near-Me terms once
+there's conversion data to steer Smart Bidding, but don't open it up
+account-wide before there's evidence it isn't pulling in the informational
+or wrong-service traffic covered in `negative-keywords/negative-keyword-list.md`.
 
-1. Confirm full service menu (pull exact treatment names/pricing pages).
-2. Once a Google Ads account exists/exports are shared, cross-reference
-   Search Terms report against this list to promote high-converting search
-   terms to exact-match keywords and prune the rest.
+## Ranking search intent (for triage, not literal scoring)
+
+**High commercial intent — protect and prioritize:**
+"laser hair removal edmonton," "laser hair removal near me," "brazilian
+laser hair removal edmonton," anything with cost/price/package/near me/west
+edmonton/callingwood attached to a body area.
+
+**Informational — do not target as keywords, but expect them to show up as
+search terms and don't over-react to them:**
+"how does laser hair removal work," "does laser hair removal hurt,"
+"how to prevent razor burn," "how many sessions does laser hair removal take."
+These are researchers, not bookers — if they show up as search terms with
+spend and no conversions, they're negative-keyword candidates (see
+negative list), not something to add as a keyword.
+
+## Next steps
+
+Once real Search Terms/Keyword exports land in `data/search-term-reports/`,
+this list gets validated and pruned against actual performance — see
+`reports/optimization-framework.md` for how that decision-making works.

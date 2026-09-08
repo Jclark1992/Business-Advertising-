@@ -1,62 +1,78 @@
 # Business Profile — Bare Laser & Skin Studio
 
-Compiled from public web research (site crawl was blocked by network egress, so
-this is built from search results, review sites, and booking listings). Please
-correct/fill gaps — marked with `[CONFIRM]`.
+Confirmed by owner (supersedes the earlier web-research-only draft).
 
 ## Basics
 
 - **Name:** Bare Laser & Skin Studio
-- **Location:** 17003 67 Ave NW #105, Edmonton, AB T5T 6Y5 (Callingwood /
-  West Edmonton) `[CONFIRM]`
-- **Owner/operator:** Justine `[CONFIRM]`
-- **Booking:** Vagaro (vagaro.com/ca01/barelaserandskinstudio)
-- **Website:** barelaserandskinstudio.ca
+- **Website:** https://www.barelaserandskinstudio.ca
+- **Location:** 17003 67 Ave NW, Edmonton, Alberta
+- **Primary market:** West Edmonton / Callingwood
+- **Format:** Private, professional **home-based** laser hair removal studio —
+  one-on-one appointments, not a walk-in/multi-chair clinic
+- **Parking:** Free parking on-site
 
-## Services (as found — confirm full menu and pricing)
+## Google Ads scope — Laser Hair Removal ONLY
 
-- Laser hair removal
-- IPL (intense pulsed light) treatments
-- Facials
-- Skin rejuvenation
+Do not optimize for IPL, facials, skin rejuvenation, pigmentation treatments,
+or any other beauty service, even if the business offers them elsewhere.
+Every keyword, ad, negative keyword, and report in this repo should stay
+scoped to laser hair removal.
 
-`[CONFIRM]` needed: exact service menu, package/pricing (e.g. underarms,
-full leg, Brazilian, face, full body — per-session vs. package pricing),
-machine/technology used (relevant for ad copy — e.g. "medical-grade," "SHR,"
-specific device brand), any current promotions, hours, and whether there's a
-second location (a search result mentioned a Callingwood-area listing — confirm
-if this is the same location or a second one).
+## Positioning / angles to use in ad copy
 
-## Service area / radius
+- Primarily serves **women**
+- One-on-one, private, personalized appointments (not a clinical/impersonal
+  chain experience)
+- **Technology:** SharpLight Rapid DPC
+- Comfortable, professional treatment experience
+- Free parking — removes a real friction point vs. strip-mall/downtown clinics
 
-Callingwood is in west/southwest Edmonton (T5T). For local-intent Google Ads
-targeting, the working radius assumption is:
+## Customer pain points to speak to
 
-- **Primary radius:** 5–8 km around 17003 67 Ave NW (Callingwood, Lymburn,
-  Rio Terrace, Terra Losa, Jamieson Place, West Edmonton Mall area)
-- **Secondary radius:** 12–15 km, covering broader west/southwest Edmonton
-  and into Spruce Grove/Stony Plain commuters
+Shaving, razor burn, ingrown hairs, irritation, stubble, unwanted hair, and
+time spent shaving/maintaining.
 
-`[CONFIRM]`: exact radius you want ads to serve in, and whether you're open
-to expanding beyond west Edmonton (e.g. clients driving from other quadrants).
+## Priority treatment areas
 
-## Direct local competitors (West Edmonton / Callingwood)
+Brazilian, underarms, bikini, legs, and other women's laser hair removal
+areas. These map directly to the ad group structure in
+`campaign-structure/proposed-structure.md`.
 
-- **Dermapure — West Edmonton** (2548 Guardian Road NW, T5T 1K8)
-- **Glo Skin and Medspa** (17026-95 Ave, T5T 5R5)
-- **Westend Callingwood Medical Clinic** (laser hair removal + discounts)
+## Geographic priority
 
-## Broader Edmonton competitors (citywide search competition)
+Highest priority:
+- West Edmonton
+- Callingwood
+- Any "near me" search (device/location signals put the searcher in range)
 
-- Oxyderm Laser Clinic (4.8★, 1000+ reviews — strong social proof to beat)
-- Lipstick Empire
-- Silkyskinlaser (SHR technology angle)
-- Youthful Image (IPL/Palomar Medi-Lux)
-- New Skin Laser Studio
-- Lucere (dermatology-grade, Vectus/LightSheer)
-- Nakatsui DermaSurgery (25+ years, medical/dermatologist positioning)
+Nearby West Edmonton communities to include in targeting radius/considerations:
+Lymburn, Ormsby Place, Elmwood, Westridge, Thorncliffe, Aldergrove, Belmead,
+Summerlea, La Perle, The Hamptons, Glastonbury, Granville, Edgemont, Secord,
+Rosenthal, Lewis Estates, Webber Greens, Cameron Heights, Lessard, Donsdale,
+Oleskiw, and surrounding West Edmonton neighbourhoods.
 
-These will show up as auction competitors even on local-radius campaigns
-because several serve west Edmonton too. Their differentiators (medical-grade
-tech, reviews, pain-free/SHR, years in business) are useful for our ad copy
-angles — see `ad-copy/rsa-drafts.md`.
+Edmonton broadly is fair game where search volume and conversion performance
+justify it, but West Edmonton/local traffic gets priority in budget and bids.
+
+## Status
+
+**No campaigns are live yet.** This repo is pre-launch setup. See
+`campaign-structure/proposed-structure.md` for the launch checklist —
+conversion tracking must be working before spend starts, or "optimization"
+has nothing real to optimize against.
+
+## Local competitors (West Edmonton / Callingwood)
+
+- Dermapure — West Edmonton (2548 Guardian Road NW, T5T 1K8)
+- Glo Skin and Medspa (17026-95 Ave, T5T 5R5)
+- Westend Callingwood Medical Clinic
+
+## Broader Edmonton competitors (citywide auction competition)
+
+Oxyderm Laser Clinic (strong reviews/social proof), Lipstick Empire,
+Silkyskinlaser (SHR angle), New Skin Laser Studio, Lucere, Nakatsui
+DermaSurgery (medical/dermatologist positioning). Their differentiators
+(reviews, tech branding, years in business) are useful contrast points —
+our angle is private/personal/one-on-one + free parking + SharpLight Rapid
+DPC, not "biggest clinic in the city."

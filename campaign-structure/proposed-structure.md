@@ -1,53 +1,75 @@
-# Proposed Campaign Structure
+# Campaign Structure & Launch Checklist — Laser Hair Removal Only
+
+Status: **pre-launch.** No campaigns are running yet. This is the plan to
+launch with, plus the prerequisites that need to be true before spend starts.
 
 ## Structure
 
 ```
 Account: Bare Laser & Skin Studio
-├── Campaign: Laser Hair Removal (Search)
-│   ├── Ad Group: Brand/Location Core
-│   ├── Ad Group: Brazilian / Full Body
-│   └── Ad Group: Face / Underarm / Small Area
-├── Campaign: IPL Treatments (Search)
-│   └── Ad Group: IPL Skin Rejuvenation
-├── Campaign: Facials & Skin Rejuvenation (Search)
-│   └── Ad Group: Facials
-├── Campaign: Near Me / Local Catch-all (Search)
-│   └── Ad Group: General Local Intent
-└── Campaign: Remarketing (Display) — Phase 2, once there's site traffic
+└── Campaign: Laser Hair Removal (Search)
+    ├── Ad Group: General Laser Hair Removal — Edmonton
+    ├── Ad Group: Brazilian Laser Hair Removal
+    ├── Ad Group: Brazilian + Underarms
+    ├── Ad Group: Underarms / Legs / Bikini
+    └── Ad Group: West Edmonton / Near Me
 ```
 
-Split by service (rather than one giant campaign) so budget, bids, and ad
-copy can be tuned independently — laser hair removal will likely have far
-higher search volume and different economics than facials.
+One campaign, five ad groups — matches `keyword-research/keyword-list.md`
+and `ad-copy/rsa-drafts.md` exactly. Do not add IPL/facial/skin-rejuvenation
+campaigns here; that's explicitly out of scope for this account.
+
+## Pre-launch checklist (blockers, in order)
+
+1. **Conversion tracking working end-to-end.** Booking completions and/or
+   phone calls and/or contact form fills must fire a trackable conversion
+   before any spend starts — otherwise "optimization" has no signal to work
+   from and every later recommendation is a guess. This is the single
+   biggest prerequisite.
+2. **Google Ads conversion tag placed on the website** (or Google Tag
+   Manager container installed) — see the setup notes you're working
+   through separately for token placement.
+3. Landing page confirmed relevant to laser hair removal specifically
+   (not a generic homepage covering every service) — Google's Quality Score
+   and ad relevance both depend on this, and it stops IPL/facial visitors
+   from clicking a laser hair removal ad.
+4. Google Business Profile linked for location extensions.
+5. Budget and daily cap decided (see Budget below).
 
 ## Targeting
 
-- **Location:** Radius targeting centered on 17003 67 Ave NW, Edmonton
-  (see `business-profile/overview.md` for radius assumptions) —
-  `[CONFIRM exact radius]`. Use "Presence" targeting (people in/regularly in
-  the area), not "Presence or interest," to avoid serving ads to people
-  merely searching about Edmonton from elsewhere.
-- **Ad schedule:** Align with business hours + a lead-in window (people
-  research treatments in the evening even if booking during business hours)
-  — `[CONFIRM hours]`.
-- **Bidding:** Start with Maximize Conversions (or manual CPC if no
-  conversion data yet) with a modest daily budget per campaign; move to
-  Target CPA once ~30+ conversions/month of data exist.
-- **Conversion tracking:** Confirm what's tracked today — booking completions
-  (Vagaro), phone calls, contact form fills. This is the #1 prerequisite for
-  any real optimization; without it, "optimization" is guesswork.
-  `[CONFIRM — this is a blocker for smart bidding]`.
+- **Location:** Radius/location targeting centered on 17003 67 Ave NW,
+  Edmonton, prioritizing West Edmonton/Callingwood and the neighbourhoods
+  listed in `business-profile/overview.md`. Use **Presence** targeting
+  (people in or regularly in the area) rather than "Presence or interest,"
+  since a home-based studio needs people who can realistically show up.
+- **Ad schedule:** Align with actual appointment availability — no point
+  serving ads for times you can't book. `[CONFIRM hours/availability]`.
+- **Devices:** Watch mobile vs. desktop performance separately once data
+  exists (see `reports/optimization-framework.md`); don't assume evenly.
+
+## Bidding
+
+- **Start:** Manual CPC or Maximize Clicks with a firm daily cap while
+  there's no conversion history — the goal in week 1-2 is clean data, not
+  volume.
+- **Move to Maximize Conversions** once conversion tracking is verified
+  and a small amount of data exists.
+- **Move to Target CPA** only once there's a statistically meaningful
+  number of conversions (roughly 30+/month) — not before, since Smart
+  Bidding with too little data optimizes toward noise.
 
 ## Budget
 
-`[CONFIRM monthly/daily budget]` — recommendations above assume a modest
-single-location local services budget. Splits should weight toward Laser
-Hair Removal first (highest intent + revenue), then IPL/Facials.
+`[CONFIRM monthly/daily budget]`. Whatever the number, the rule from the
+optimization framework applies from day one: reduce wasted spend (irrelevant
+search terms, underperforming ad groups) before increasing budget — don't
+chase volume at the expense of lead quality.
 
-## Extensions to enable
+## Extensions to enable at launch
 
-- Call extensions (click-to-call, especially on mobile)
+- Call extensions (click-to-call — especially valuable on mobile for a
+  service business)
 - Location extension (linked Google Business Profile)
-- Sitelinks, callouts, structured snippets (see `ad-copy/rsa-drafts.md`)
-- Price extensions if you want to publish package pricing
+- Sitelinks, callouts (see `ad-copy/rsa-drafts.md`)
+- Price extensions, only once real package pricing is confirmed
