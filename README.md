@@ -27,8 +27,10 @@ What this workspace *does* do:
 `data/search-term-reports/` (CSV, weekly is enough) and I'll turn them into
 a report under `reports/`.** Recommendations get applied by you (or whoever
 manages the account) in the Google Ads UI, then check them off in the report.
-If you'd rather not hand-export weekly, granting a Google Ads API/connector
-later would let this become fully automatic — flag it if you want to pursue that.
+
+You have a Google Ads API developer token, which can automate that export
+step — see `scripts/google-ads-api/README.md` for setup (it also covers
+where the token actually goes, since it's not a website tag).
 
 ## Structure
 
@@ -37,7 +39,8 @@ later would let this become fully automatic — flag it if you want to pursue th
 - `negative-keywords/` — running negative keyword list with rationale
 - `ad-copy/` — RSA headline/description drafts by ad group
 - `campaign-structure/` — campaign/ad group architecture + pre-launch checklist
-- `data/search-term-reports/` — drop your Google Ads CSV exports here
+- `scripts/google-ads-api/` — API scripts to pull reports automatically once set up
+- `data/search-term-reports/` — Google Ads CSV exports land here (manual or via script)
 - `reports/` — dated optimization reports + `optimization-framework.md`
   (the decision rules every recommendation follows)
 

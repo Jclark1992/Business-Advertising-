@@ -1,0 +1,11 @@
+# Credentials — never commit these
+.env
+*.env
+google-ads.yaml
+scripts/google-ads-api/token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
