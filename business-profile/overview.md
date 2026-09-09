@@ -28,6 +28,41 @@ scoped to laser hair removal.
 - Comfortable, professional treatment experience
 - Free parking — removes a real friction point vs. strip-mall/downtown clinics
 
+## Hours of operation
+
+| Day | Hours |
+|---|---|
+| Monday | 4:30pm – 8:30pm |
+| Tuesday | 5:30pm – 8:30pm |
+| Wednesday | 4:30pm – 8:30pm |
+| Thursday | 5:30pm – 8:30pm |
+| Friday | 3:00pm – 8:00pm |
+| Saturday | 9:00am – 3:00pm |
+| Sunday | 9:00am – 3:00pm |
+
+~31 hours/week open — consistent with a solo, home-based operator. See
+`campaign-structure/proposed-structure.md` for how this maps to ad
+scheduling and call extension hours.
+
+## Booking channels
+
+- **Website "Book Now" button** — self-serve, available 24/7 regardless of
+  open hours. This is the primary conversion action to track.
+- **Phone calls** to the business number
+- **Text messages** to the business number
+
+All three are trackable conversion actions (see the pre-launch checklist)
+— calls and texts can't be assumed to convert just because they happened;
+track call length/booked outcome where possible so a 10-second wrong-number
+call isn't counted the same as a booked appointment.
+
+## Pricing structure
+
+Single sessions and packages are both available, with packages positioned
+as the cheaper-per-session option. Exact price points still
+`[CONFIRM]` — until then, ad copy can reference "single sessions & packages
+available" but not specific dollar figures.
+
 ## Customer pain points to speak to
 
 Shaving, razor burn, ingrown hairs, irritation, stubble, unwanted hair, and
