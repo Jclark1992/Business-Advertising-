@@ -5,11 +5,11 @@ copy per ad group, matching `keyword-research/keyword-list.md`. Items
 marked `[CONFIRM]` need a real fact (pricing, session count, promo) before
 going live — don't publish a claim we haven't verified.
 
-**Correction:** earlier drafts used "Book Your Free Consult" throughout.
-That was never actually confirmed — replaced below with the real booking
-channels (book online, call, or text) instead of an unverified "free
-consult" claim. Don't reintroduce "free consultation" language unless it's
-confirmed as a real offer.
+**Character limits (Google Ads RSA):** headlines max **30 characters**,
+descriptions max **90 characters**. Every line below has been checked
+against those limits — if you ever add a new one by hand, count it first
+(`len("your text")` in Python, or just count manually) before pasting it
+in, since the Ads UI will reject or truncate anything over.
 
 Core positioning to weave through all copy: private, home-based, one-on-one
 studio (not a clinical multi-chair clinic) · SharpLight Rapid DPC technology
@@ -23,82 +23,88 @@ text — all valid, all worth surfacing.
 
 **Headlines**
 1. Laser Hair Removal Edmonton
-2. Private, One-on-One Appointments
-3. West Edmonton's Laser Studio
-4. SharpLight Rapid DPC Technology
+2. One-on-One Appointments
+3. West Edmonton Laser Studio
+4. SharpLight Rapid DPC Tech
 5. Say Goodbye to Razor Burn
 6. No More Ingrown Hairs
 7. Book Online, Call, or Text
 8. Free Parking On-Site
-9. Comfortable, Personalized Care
-10. Serving Callingwood & West Edmonton
-11. Smooth Skin, Less Time Shaving
+9. Comfortable, Personal Care
+10. Callingwood & West Edmonton
+11. Less Time Spent Shaving
 12. Laser Hair Removal Packages
-13. Single Sessions & Packages Available
+13. Single Sessions & Packages
 14. Book Online in Minutes
 15. Women's Laser Hair Removal
 
 **Descriptions**
-1. Private, one-on-one laser hair removal in Callingwood using SharpLight Rapid DPC technology. Free parking, single sessions & packages available.
-2. Tired of razor burn and ingrown hairs? Book a personalized laser hair removal appointment in West Edmonton today.
-3. A private, comfortable studio experience — not a clinic. Serving West Edmonton and Callingwood with flexible packages.
+1. Private, one-on-one laser hair removal in Callingwood. Free parking included.
+2. Tired of razor burn & ingrown hairs? Book your appointment today.
+3. SharpLight Rapid DPC technology. Comfortable, personalized care.
+4. Book online, call, or text. Single sessions & packages available.
 
 ## Ad Group 2: Brazilian Laser Hair Removal
 
 **Headlines**
-1. Brazilian Laser Hair Removal Edmonton
-2. Private, One-on-One Appointments
-3. Comfortable, Judgment-Free Studio
-4. Brazilian Laser Near Callingwood
+1. Brazilian Laser Removal
+2. One-on-One Appointments
+3. Private, Judgment-Free Care
+4. Brazilian Laser Callingwood
 5. Book Online, Call, or Text
-6. SharpLight Rapid DPC Technology
-7. Smooth Results, Less Maintenance
+6. SharpLight Rapid DPC Tech
+7. Smooth Results, Less Upkeep
 
 **Descriptions**
-1. Private, one-on-one Brazilian laser hair removal in a comfortable home studio setting. Book online, call, or text in West Edmonton.
-2. Skip the razor burn and ingrown hairs. Brazilian laser hair removal with SharpLight Rapid DPC — serving Callingwood & West Edmonton.
+1. Private, one-on-one Brazilian laser hair removal. Book your appointment today.
+2. SharpLight Rapid DPC technology in a comfortable, judgment-free studio.
+3. Skip the upkeep, smooth lasting results. Serving West Edmonton & Callingwood.
+4. Book online, call, or text. Free parking, single sessions & packages available.
 
 ## Ad Group 3: Brazilian + Underarms
 
 **Headlines**
-1. Brazilian & Underarm Laser Package
-2. Bundle & Save on Laser Packages `[CONFIRM if a real bundle discount exists]`
-3. Private One-on-One Appointments
+1. Brazilian & Underarm Laser
+2. Save on Laser Packages `[CONFIRM if a real bundle discount exists]`
+3. One-on-One Appointments
 4. Book Online, Call, or Text
 5. West Edmonton Laser Studio
 
 **Descriptions**
-1. Combine Brazilian and underarm laser hair removal in one private, personalized appointment. Book online, call, or text today.
-2. A comfortable, one-on-one studio experience in West Edmonton — SharpLight Rapid DPC technology, free parking.
+1. Combine Brazilian & underarm laser hair removal in one private appointment.
+2. SharpLight Rapid DPC technology, free parking, West Edmonton studio.
+3. Book online, call, or text to schedule your combo appointment today.
 
 ## Ad Group 4: Underarms / Legs / Bikini
 
 **Headlines**
 1. Underarm Laser Hair Removal
-2. Leg Laser Hair Removal Edmonton
+2. Leg Laser Hair Removal
 3. Bikini Laser Hair Removal
 4. Smooth Skin, No More Shaving
 5. Private, One-on-One Studio
 6. Book Online, Call, or Text
-7. SharpLight Rapid DPC Technology
+7. SharpLight Rapid DPC Tech
 
 **Descriptions**
-1. Laser hair removal for underarms, legs & bikini in a private, comfortable studio. Book online, call, or text in West Edmonton.
-2. Say goodbye to stubble and razor burn — personalized laser hair removal appointments in Callingwood.
+1. Laser hair removal for underarms, legs & bikini in a private studio.
+2. Say goodbye to stubble & razor burn. Book your appointment today.
+3. Private, one-on-one care in Callingwood. Free parking on-site.
 
 ## Ad Group 5: West Edmonton / Near Me
 
 **Headlines**
 1. Laser Hair Removal Near You
 2. Callingwood's Laser Studio
-3. West Edmonton Laser Hair Removal
-4. Private, One-on-One Appointments
+3. West Edmonton Laser Removal
+4. One-on-One Appointments
 5. Free Parking On-Site
 6. Book Online, Call, or Text
 
 **Descriptions**
-1. A private, personalized laser hair removal studio right in Callingwood — free parking, easy booking, comfortable experience.
-2. Serving West Edmonton and surrounding communities. Book online, call, or text to schedule your laser hair removal appointment today.
+1. A private laser hair removal studio right in Callingwood. Free parking.
+2. Serving West Edmonton & nearby communities. Book online, call, or text.
+3. One-on-one appointments, SharpLight Rapid DPC technology. Book today.
 
 ## Callouts / Sitelinks (reusable across all ad groups)
 
