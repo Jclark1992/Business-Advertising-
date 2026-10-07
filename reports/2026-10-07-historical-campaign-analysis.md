@@ -70,9 +70,9 @@ into the relaunch.
 
 ## What's recommended
 
-- [ ] **Delete the "Website traffic-Search-1" campaign entirely** — unused, off-topic keyword list, no reason to keep it.
-- [ ] **Do not resume the Performance Max campaign.** Its data is untrustworthy (broken tracking) and its automated, cross-network targeting conflicts with the controlled local-service strategy already planned.
-- [ ] **Relaunch using Phrase/Exact match only, never Broad**, per the original campaign-structure plan — this is the single biggest fix. Broad Match is what let 42.6% of spend leak to irrelevant queries.
+- [x] **Delete the "Website traffic-Search-1" campaign entirely** — unused, off-topic keyword list, no reason to keep it. — *Done, removed.*
+- [x] **Do not resume the Performance Max campaign.** Its data is untrustworthy (broken tracking) and its automated, cross-network targeting conflicts with the controlled local-service strategy already planned. — *Done, removed.*
+- [ ] **Relaunch using Phrase/Exact match only, never Broad**, per the original campaign-structure plan — this is the single biggest fix. Broad Match is what let 42.6% of spend leak to irrelevant queries. — *In progress.*
 - [x] **Add `facial hair removal near me` / `permanent facial hair removal near me` style phrasing** to `keyword-research/keyword-list.md` — this is the one phrase with proven real-world conversion evidence, and the current list is weighted toward "laser hair removal edmonton" phrasing which, per this data, got real clicks but zero bookings. — *Done.*
 - [x] **Add the following to `negative-keywords/negative-keyword-list.md`**, backed by real wasted spend:
   - Competitor/business names: `rejuvenation dermatology`, `windermere`, `vanity lab`, `serena clinic`, `lucere`, `bellavera`, `off the hook`, `laser sheer wem`
