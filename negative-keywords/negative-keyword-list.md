@@ -35,6 +35,24 @@ these campaigns on purpose)**
   since the business is a single home-based Edmonton studio; remove if
   you're willing to serve clients travelling from other Alberta cities.
 
+## Evidence-based additions (October 2026 historical analysis)
+
+Added from real spend data in `reports/2026-10-07-historical-campaign-analysis.md`
+— the previous Broad Match campaign actually paid for these queries with
+zero conversions. Apply at account level.
+
+**Competitor / other business names** (picked up via Broad Match, no
+relevance to this business):
+- "rejuvenation dermatology", windermere, "vanity lab", "serena clinic",
+  lucere, bellavera, "off the hook", "laser sheer wem"
+
+**Off-topic / wrong-intent, confirmed wasted spend:**
+- whitening, wrinkle, "shave my arms", groupon
+
+(`groupon` was already noted conditionally above — this confirms it
+actually wasted spend here with zero conversions, so treat it as a firm
+negative unless a Groupon-style promo is deliberately launched.)
+
 ## Ad-group-level negatives
 
 **General Laser Hair Removal — Edmonton**

@@ -19,6 +19,19 @@ fifty overlapping keywords.
 - affordable laser hair removal edmonton [phrase]
 - laser hair removal packages edmonton [phrase]
 
+**Proven converter (real data, see `reports/2026-10-07-historical-campaign-analysis.md`):**
+`permanent facial hair removal near me` drove every tracked conversion
+(3 bookings) from the previous campaign run, at ~$16.75/conversion vs. the
+campaign's $96.66 blended average. Added here as exact match, plus close
+variants — this phrasing ("facial hair removal") outperformed the more
+generic "laser hair removal edmonton" wording the rest of this list leans on.
+
+- permanent facial hair removal near me [exact]
+- facial hair removal near me [exact]
+- facial hair removal edmonton [phrase]
+- laser facial hair removal edmonton [phrase]
+- laser facial hair removal near me [phrase]
+
 ## 2. Brazilian Laser Hair Removal
 
 - brazilian laser hair removal edmonton [phrase]
