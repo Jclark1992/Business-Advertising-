@@ -23,5 +23,6 @@ shared), that check-in is a no-op — you won't be pinged for nothing.
 
 ## Report log
 
-- No reports yet — first one lands once real performance data (Google Ads
-  exports, or account access) is available, or on request.
+- **2026-10-07 — Historical Campaign Analysis** (`2026-10-07-historical-campaign-analysis.md`):
+  first real-data report, covering the previously paused campaigns.
+  Pending your review.
