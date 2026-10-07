@@ -30,9 +30,9 @@ text — all valid, all worth surfacing.
 6. No More Ingrown Hairs
 7. Book Online, Call, or Text
 8. Free Parking On-Site
-9. Comfortable, Personal Care
+9. Facial Hair Removal Edmonton
 10. Callingwood & West Edmonton
-11. Less Time Spent Shaving
+11. Laser Hair Removal Near Me
 12. Laser Hair Removal Packages
 13. Single Sessions & Packages
 14. Book Online in Minutes
